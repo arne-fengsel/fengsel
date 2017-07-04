@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<properties>
+		<apache.camel.version>2.15.3</apache.camel.version>
+	</properties>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>no.mesan.fagark.reaktiv</groupId>
+	<artifactId>fag-ark-reaktiv-fengsel</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Fengsel</name>
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-core</artifactId>
+			<version>${apache.camel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-jetty</artifactId>
+			<version>${apache.camel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-restlet</artifactId>
+			<version>${apache.camel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-spring</artifactId>
+			<version>${apache.camel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-servlet</artifactId>
+			<version>${apache.camel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-metrics</artifactId>
+			<version>${apache.camel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-jackson</artifactId>
+			<version>${apache.camel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.0</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.0</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.hawt</groupId>
+			<artifactId>hawtio-embedded</artifactId>
+			<version>1.4.54</version>
+		</dependency>
+		<!-- <dependency>
+			<groupId>io.hawt</groupId>
+			<artifactId>hawtio-web</artifactId>
+			<version>1.0</version>
+		</dependency> -->
+
+	</dependencies>
+</project>
